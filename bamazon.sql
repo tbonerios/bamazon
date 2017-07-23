@@ -4,6 +4,7 @@ CREATE DATABASE bamazonDB;
 USE bamazonDB;
 
 
+
 CREATE TABLE products(
   id INT NOT NULL AUTO_INCREMENT,
   item_id VARCHAR(100) NOT NULL,
@@ -44,4 +45,4 @@ VALUES ("waterhose1", "Water Hose", "lawn", 15, 10);
 INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
 VALUES ("laptop1", "Mac Pro", "computer", 15, 10);
 
-w
+SELECT * FROM products;
