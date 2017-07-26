@@ -77,7 +77,7 @@ function idItemList() {
                         ],
                         function(err) {
                             if (err) throw err;
-                            console.log("You have successfully bought your Products! The amount you owe is: " );
+                            console.log("You have successfully bought your Products! The amount you owe is: " + answer.buy*chosenItem.price);
                             start();
                         }
                     );
